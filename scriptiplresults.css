@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image:url("images/Dhoni.jpg");
+  background-position:'center';
+  background-size:cover;
+  font-family:sans-serif;
+  margin-top:40px;
+}
+
+h1{
+  text-align:center;
+  color:aqua;
+  margin-top:20px;
+
+}
+select{
+  height: 45px;
+  width: 200px;
+}
+
+.header{
+  background-size: cover;
+  position: relative;
+}
+
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+#navbar ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+span{
+  display: inline-block;
+  margin: -50px;
+}
+
+#year{
+  left: 520px;
+  top: 5px;
+  padding: 10px;
+}
+
+select{
+  height: 45px;
+  width: 200px;
+}

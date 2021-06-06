@@ -1,0 +1,74 @@
+#navbar ul {
+  
+  display: flex;
+  align-content: center;
+ justify-content: center;
+}
+#navbar ul li {
+  padding: 20px;
+  list-style: none;
+}
+#navbar ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  
+}
+#navbar ul li a:hover {
+  border-bottom: 3px solid #fff;
+  
+}
+
+.header {
+  padding: 20px;
+  height: 100vh;
+  background: url("Images/Dhoni.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.header h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.header .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.flex1 {
+  display: flex;
+  color: white;
+  padding: 100px 150px 150px 100px;
+  position: center;
+  background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+
+.flex1 p {
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+}
+
+.flex2 h1 {
+  font-size: 325%;
+  text-align: center;
+}
+  
+
+
+ul li {
+  padding: 10px 10px 10px 10px;
+  
+}
